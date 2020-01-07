@@ -56,6 +56,13 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Top.aspx.cs">
+      <DependentUpon>Top.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Top.aspx.designer.cs">
+      <DependentUpon>Top.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -67,6 +74,15 @@
       <Project>{A0D35F97-EE15-4CFC-B4C4-F56AA37C7CAD}</Project>
       <Name>VYEP</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="pic\test1.png" />
+    <Content Include="pic\test2.png" />
+    <Content Include="pic\test3.png" />
+    <Content Include="pic\test4.png" />
+    <Content Include="pic\test5.png" />
+    <Content Include="Top.aspx" />
+    <Content Include="TopPage.css" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

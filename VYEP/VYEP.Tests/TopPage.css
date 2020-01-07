@@ -1,0 +1,28 @@
+﻿body {
+}
+
+.top-space {
+    text-align: center;
+}
+
+.top-pic {
+    width: 40%;
+}
+
+.inline-picgroupe {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    letter-spacing: -1em; /* 隙間をなくす */
+    font-size: 0;
+}
+
+.inline-pic {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.chg-top1 {
+    width: 20%;
+}
